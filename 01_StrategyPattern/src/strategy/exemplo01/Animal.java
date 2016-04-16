@@ -1,5 +1,13 @@
 package strategy.exemplo01;
 
-public class Animal {
+/**
+ * Exemplo 01 - Strategy Pattern
+ * 
+ * 
+ * 
+ * @author Edney Roldão
+ *
+ */
+public abstract class Animal {
 
 }

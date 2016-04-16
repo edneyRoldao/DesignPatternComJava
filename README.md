@@ -1,4 +1,4 @@
-# padrõesDeProjeto (Design Patterns) em Java
+#Padrões de Projeto (Design Patterns) em Java
 <b>Diversos exemplos práticos e casos de uso dos principais patterns utilizados</b>
 
 Principais referências bibliográficas:
@@ -19,6 +19,6 @@ Orientação a objetos e SOLID para ninjas - Livro casa do código - Maurício A
 <br/>
 
 <b>Minha Opinião</b>
-Estudar sobre design patterns e praticar os diversos casos de uso para cada um deles, é a melhor forma de se entender quais são o reais benefícios da programação orientada a objetos e como aproveitar seus recursos.
-Se você se considera que sabe orientação a objetos e nunca estudou sobre design patterns, acredite em mim... Voçê não sabe orientação a objetos.
+Estudar sobre design patterns e praticar os diversos casos de uso para cada um deles, é a melhor forma de se entender os reais benefícios da programação orientada a objetos (oo) e como usá-la corretamente.
+Conhecer os conceitos de oo não é o suficiente para que ela seja utilizada, precisamos endender como e em qual situação determinado conceito deve ser aplicado, portando, se aprofundar no conhecimento dos pricipais Patterns é o melhor caminho. 
   

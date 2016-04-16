@@ -1,15 +1,14 @@
-# Bem vindo ao Strategy Pattern
+#Strategy Pattern
 
 <b>Conceitos básicos desse Padrão</b>
 
-É segunda-feira, você acabou de chegar no trabalho e se lembra que ainda não conseguiu terminar de resolver uma pequena inconsistêcia na aplicação que você já está acostumado a dar manutenção, só que você não está nada animado pois será nescessário dar uma 'ajustadinha' em uma classe meio encardida de se mexer, sabe... aquela com mais de 600 linhas de código em um único método, milhares de if, else, for, while que só de pensar dá arrepios.
-Um dos principais benefícios da utilização desse pattern é a diminuição de condicionais dentro da uma classe, ou seja quando você precisa usar somente um comportamento entre diversos outros dinâmicamente.
+É segunda-feira, você acabou de chegar no trabalho e se lembra que ainda não conseguiu terminar de implementar a nova funcionalidade do sistema. Você não está nada animado pois terá que abrir aquela famosa classe que da dor de cabeça só de pensar, é aquela com mais de 3000 linhas de código, milhares de if, else, for, while, etc... .
+Um dos principais benefícios da utilização desse pattern é a diminuição de condicionais dentro da uma classe, ou seja quando você precisa usar somente um comportamento dentre diversos dinâmicamente.
 Não vou me alongar aqui, porém, uma classe como a descrita acima quebra diversas premissas da OO, exemplo: falta de coesão e estar aberta a modificações.
-Procure saber mais por meia de livros como os da casa do código dentre outros. 
 <br/>
 
 <b>O que realmente vamos fazer ?</b>
-Vamos definir uma família de algoritmos que resolvem problemas similares,  encapsular cada um deles e deixa-los intercambiáveis.
+Vamos definir uma família de algoritmos que resolvem problemas similares,  encapsular cada um deles em diferentes classes e deixa-los intercambiáveis por meio do conceito de composição.
 O padrão strategy deixa a variação dessa família de algoritmos independente dos clientes que a utilizam.
 
 <b>Vantagens de usar esse padrão</b>
@@ -29,3 +28,5 @@ Aumento da complexidade na criação do objeto que tem as classes acima como dep
 
 <br/><br/>
 <b>Exemplo 01 - Caso de uso: A famosa superClasse Aminal</b>
+Esse é um exemplo mais simples para iniciar o entendimento.
+<br/>
