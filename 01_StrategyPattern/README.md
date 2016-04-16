@@ -30,3 +30,4 @@ Aumento da complexidade na criação do objeto que tem as classes acima como dep
 <b>Exemplo 01 - Caso de uso: A famosa superClasse Aminal</b>
 Esse é um exemplo mais simples para iniciar o entendimento.
 <br/>
+![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/strategyExemplo01.png)
