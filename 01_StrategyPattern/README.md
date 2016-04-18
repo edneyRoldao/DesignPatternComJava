@@ -31,3 +31,9 @@ Aumento da complexidade na criação do objeto que tem as classes acima como dep
 Esse é um exemplo mais simples para iniciar o entendimento.
 <br/>
 ![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/strategyExemplo01.png)
+
+<br/><br/>
+<b>Exemplo 02 - Caso de uso: Calculo da conta de Estacionamento de veiculos</b>
+Diferente do primeiro exemplo, está cenário com o strategy é uma ótima solução.
+<br/>
+![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/strategyExemplo02.png)
