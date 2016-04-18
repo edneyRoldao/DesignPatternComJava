@@ -40,8 +40,29 @@ Diferente do primeiro exemplo, está cenário com o strategy é uma ótima solu�
 
 <br/><br/>
 <b>Exemplo 03 - Caso de uso: Formatador de textos</b>
+<br/>
 Este exemplo é o mais rápido de se implementar.
 <br/>
 <b>Foi retirado do site javacodegeeks.com</b>
 <br/>
 link: https://www.javacodegeeks.com/2015/09/strategy-design-pattern.html
+
+<br/><br/>
+<b>When to use the Strategy Design Pattern</b>
+<br/><br/>
+Use the Strategy pattern when:
+Many related classes differ only in their behavior. Strategies provide a way to configure a class with one of many behaviors.
+<br/>
+You need different variants of an algorithm. For example, you might define algorithms reflecting different space/time trade-offs. Strategies can be used when these variants are implemented as a class hierarchy of algorithms.
+<br/>
+An algorithm uses data that clients shouldn’t know about. Use the Strategy pattern to avoid exposing complex, algorithm-specific data structures.
+<br/>
+A class defines many behaviors, and these appear as multiple conditional statements in its operations. Instead of many conditionals, move related conditional branches into their own Strategy class.
+<br/><br/>
+Strategy Pattern in JDK
+<br/>
+java.util.Comparator#compare()
+<br/>
+javax.servlet.http.HttpServlet
+<br/>
+javax.servlet.Filter#doFilter()
