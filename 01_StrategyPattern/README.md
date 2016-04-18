@@ -37,3 +37,9 @@ Esse é um exemplo mais simples para iniciar o entendimento.
 Diferente do primeiro exemplo, está cenário com o strategy é uma ótima solução.
 <br/>
 ![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/strategyExemplo02.png)
+
+<br/><br/>
+<b>Exemplo 03 - Caso de uso: Formatador de textos</b>
+Este exemplo é o mais rápido de se implementar.
+<b>Foi retirado do site javacodegeeks.com</b>
+link: https://www.javacodegeeks.com/2015/09/strategy-design-pattern.html
