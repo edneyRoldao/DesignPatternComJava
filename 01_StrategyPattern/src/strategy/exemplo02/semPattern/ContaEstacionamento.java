@@ -1,27 +1,31 @@
 package strategy.exemplo02.semPattern;
 
+import strategy.exemplo02.model.Veiculo;
+import strategy.exemplo02.model.VeiculoNaoMotorizado;
+import strategy.exemplo02.model.VeiculoPasseio;
+import strategy.exemplo02.util.PeriodoUtil;
+
 /**
  * Diferente do exemplo01, este é um ótimo exemplo de aplicação do Strategy Pattern.
  * 
  * Esta classe ainda não está aplicando o pattern.
- * OBS: o método calcularValorConta vai sobre grandes alterações com o Strategy.
+ * OBS: o método calcularValorConta vai sofrer grandes alterações com o Strategy. Ver no exemplo comPattern
  * 
  * @author Edney Roldão
  *
  */
 public class ContaEstacionamento {
 
-	//Atributos
+	// Atributos
 	private long tempoInicial;
 	private long tempoFinal;
-	private final long HORA = 3600000;
-	private final long DIA = 24 * HORA;
-	private final long MES = 30 * DIA;
 	
 	// Objeto Veiculo
 	private Veiculo veiculo;
 	
 	/**
+	 * Este método está horrível, precisamos refatorar.
+	 * 
 	 * Quando percebemos que um algoritmo não está consistênte e coerente, ou seja, passível de refatorção,
 	 * ele pode ser chamado de CODE SMELL.
 	 * 
@@ -35,31 +39,31 @@ public class ContaEstacionamento {
 		long periodoEstacionado = tempoAtual - tempoInicial;
 		
 		if(veiculo instanceof VeiculoNaoMotorizado) {
-			if(periodoEstacionado < 12 * HORA) {
-				return 0.5 * Math.ceil(periodoEstacionado / HORA);
-			}else if(periodoEstacionado > 12 * HORA && periodoEstacionado < 15 * DIA) {
-				return 9.50 * Math.ceil(periodoEstacionado / DIA);
+			if(periodoEstacionado < 12 * PeriodoUtil.getHoraEmMilisegundos()) {
+				return veiculo.getValorPorPeriodo() * (periodoEstacionado / PeriodoUtil.getHoraEmMilisegundos());
+			}else if(periodoEstacionado > 12 * PeriodoUtil.getHoraEmMilisegundos() && periodoEstacionado < 15 * PeriodoUtil.getDiaEmMilisegundos()) {
+				return veiculo.getValorDiaria() * (periodoEstacionado / PeriodoUtil.getDiaEmMilisegundos());
 			}else {
-				return 100.00 * Math.ceil(periodoEstacionado / MES);
+				return veiculo.getValorMensal() * (periodoEstacionado / PeriodoUtil.getMesEmMilisegundos());
 			}
 			
 		}else if(veiculo instanceof VeiculoPasseio) {
-			if(periodoEstacionado < 12 * HORA) {
-				return 2.0 * Math.ceil(periodoEstacionado / HORA);
-			}else if(periodoEstacionado > 12 * HORA && periodoEstacionado < 15 * DIA) {
-				double valor = 13.5 * Math.ceil(periodoEstacionado / DIA);
+			if(periodoEstacionado < 12 * PeriodoUtil.getHoraEmMilisegundos()) {
+				return veiculo.getValorPorPeriodo() * (periodoEstacionado / PeriodoUtil.getHoraEmMilisegundos());
+			}else if(periodoEstacionado > 12 * PeriodoUtil.getHoraEmMilisegundos() && periodoEstacionado < 15 * PeriodoUtil.getDiaEmMilisegundos()) {
+				double valor = veiculo.getValorDiaria() * (periodoEstacionado / PeriodoUtil.getDiaEmMilisegundos());
 				return valor;
 			}else {
-				return 200.00 * Math.ceil(periodoEstacionado / MES);
+				return veiculo.getValorMensal() * (periodoEstacionado / PeriodoUtil.getMesEmMilisegundos());
 			}
 			
 		}else {
-			if(periodoEstacionado < 12 * HORA) {
-				return 3.50 * Math.ceil(periodoEstacionado / HORA);
-			}else if(periodoEstacionado > 12 * HORA && periodoEstacionado < 15 * DIA) {
-				return 17.45 * Math.ceil(periodoEstacionado / DIA);
+			if(periodoEstacionado < 12 * PeriodoUtil.getHoraEmMilisegundos()) {
+				return veiculo.getValorPorPeriodo() * (periodoEstacionado / PeriodoUtil.getHoraEmMilisegundos());
+			}else if(periodoEstacionado > 12 * PeriodoUtil.getHoraEmMilisegundos() && periodoEstacionado < 15 * PeriodoUtil.getDiaEmMilisegundos()) {
+				return veiculo.getValorDiaria() * (periodoEstacionado / PeriodoUtil.getDiaEmMilisegundos());
 			}else {
-				return 300.00 * Math.ceil(periodoEstacionado / MES);
+				return veiculo.getValorMensal() * (periodoEstacionado / PeriodoUtil.getMesEmMilisegundos());
 			}
 		}
 	}

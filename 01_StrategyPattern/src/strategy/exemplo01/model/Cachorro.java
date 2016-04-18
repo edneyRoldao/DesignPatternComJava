@@ -1,15 +1,17 @@
-package strategy.exemplo01;
+package strategy.exemplo01.model;
 
-public class Passaro extends Animal {
+import strategy.exemplo01.NaoVoa;
+
+public class Cachorro extends Animal {
 
 	
 	/**
 	 * Este construtor faz parte do Strategy pattern.
 	 * Veja que já está sendo passado como padrão uma classe que implementa a interface com o método voar.
 	 */
-	public Passaro() {
+	public Cachorro() {
 		super();
-		habilidadeVoar = new VoarNormal();
+		habilidadeVoar = new NaoVoa();
 	}
 	
 	/**
@@ -18,7 +20,7 @@ public class Passaro extends Animal {
 	 */
 	@Override
 	public String produzarBarulho() {
-		return "piando";
+		return "ladrando";
 	}
 
 }

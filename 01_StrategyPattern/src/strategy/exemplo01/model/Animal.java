@@ -1,4 +1,6 @@
-package strategy.exemplo01;
+package strategy.exemplo01.model;
+
+import strategy.exemplo01.HabilidadeVoarInterface;
 
 /**
  * Exemplo 01 - Strategy Pattern

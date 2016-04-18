@@ -1,5 +1,9 @@
 package strategy.exemplo01;
 
+import strategy.exemplo01.model.Animal;
+import strategy.exemplo01.model.Cachorro;
+import strategy.exemplo01.model.Passaro;
+
 public class StrategyPatternTeste {
 	
 	public static void main(String[] args) {
