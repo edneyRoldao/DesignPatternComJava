@@ -41,5 +41,7 @@ Diferente do primeiro exemplo, está cenário com o strategy é uma ótima solu�
 <br/><br/>
 <b>Exemplo 03 - Caso de uso: Formatador de textos</b>
 Este exemplo é o mais rápido de se implementar.
+<br/>
 <b>Foi retirado do site javacodegeeks.com</b>
+<br/>
 link: https://www.javacodegeeks.com/2015/09/strategy-design-pattern.html
