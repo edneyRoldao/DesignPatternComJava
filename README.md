@@ -17,8 +17,15 @@ Vídeo conceitos de SOLID do autor Eduardo Pires - (https://www.youtube.com/watc
 <br/>
 Orientação a objetos e SOLID para ninjas - Livro casa do código - Maurício Anche
 <br/>
+<b>Para aqueles onde o inglês não é uma barreira, segue a melhor referência para quem está iniciando com Design Patterns</b>
+<br/>
+https://www.javacodegeeks.com/2015/09/java-design-patterns.html - Rohit Joshi é o autor do curso.
+<br/>
+Link para baixar o livro gratuitamento do Rohit Joshi:
+<br/>
+https://www.javacodegeeks.com/wp-content/uploads/2015/10/Java-Design-Patterns.pdf
+
 
 <b>Minha Opinião</b>
-Estudar sobre design patterns e praticar os diversos casos de uso para cada um deles, é a melhor forma de se entender os reais benefícios da programação orientada a objetos (oo) e como usá-la corretamente.
-Conhecer os conceitos de oo não é o suficiente para que ela seja utilizada, precisamos endender como e em qual situação determinado conceito deve ser aplicado, portando, se aprofundar no conhecimento dos pricipais Patterns é o melhor caminho. 
+Acho que estudar e conhecer os principais Design Patterns deveria ser pré-requisito para uma pessoa se auto declarar um desenvolvedor que programa aplicando os conceitos da Orientação a Objetos, independente da linguagem. 
   
