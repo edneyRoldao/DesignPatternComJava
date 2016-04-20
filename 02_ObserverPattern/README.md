@@ -1,8 +1,6 @@
 #Observer Pattern
+	
 
-<b>Conceitos básicos desse Padrão</b>
-
-Adicionar...
 <br/>
 
 <b>O que realmente vamos fazer ?</b>

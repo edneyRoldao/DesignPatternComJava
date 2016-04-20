@@ -1,10 +1,16 @@
 #Strategy Pattern
-
-<b>Conceitos básicos desse Padrão</b>
-
-É segunda-feira, você acabou de chegar no trabalho e se lembra que ainda não conseguiu terminar de implementar a nova funcionalidade do sistema. Você não está nada animado pois terá que abrir aquela famosa classe que da dor de cabeça só de pensar, é aquela com mais de 3000 linhas de código, milhares de if, else, for, while, etc... .
-Um dos principais benefícios da utilização desse pattern é a diminuição de condicionais dentro da uma classe, ou seja quando você precisa usar somente um comportamento dentre diversos dinâmicamente.
-Não vou me alongar aqui, porém, uma classe como a descrita acima quebra diversas premissas da OO, exemplo: falta de coesão e estar aberta a modificações.
+	
+Para explicar o Strategy Pattern, vamos seguir o caso de uso do exemplo03:
+<br/>
+Sua aplicação possuí um formatador de textos com diversos formatos onde, cada formato deve ser aplicado em uma determinada situação. Sem o conhecimento do Strategy, teríamos duas opções óbvias para implementar
+esses formatadores:
+<br/>
+01: Criar um super método com diversos if ou algo do tipo que formata o texto de acordo com a situação. Este é para desenvolvedores iniciantes que não conhecem orientação a objetos.
+<br/>
+02: Podemos utilizar Herança, nesse caso, teríamos uma classe Pai Formatador e as classes filhas onde cada uma teria seu formatador específico. Desse forma não conseguimos intercambiabilidade entre essas implementações, ou seja, se o formatador A precisar saber formatar da mesma forma que o formatador B, teríamos que duplicar o códido que está no B para o A.
+<br/>
+O Strategy Pattern cria uma família de algoritmos que resolvem o mesmo problema de formas diferentes, nesse caso formatar textos, encapsula cada um deles separadamente, e finalmente,
+torna cada um desses algoritmos intercambiáves. A premissão desse pattern é essa, o cliente pode trocar a implementação dinâmicamente de acordo com a sua necessidade.
 <br/>
 
 <b>O que realmente vamos fazer ?</b>
@@ -15,11 +21,10 @@ O padrão strategy deixa a variação dessa família de algoritmos independente 
 
 redução do número de condicionais
 <br/>
-avita código duplicado
+evita código duplicado
 <br/>
-Abstrai código complexo dos clientes
+Abstrai códigos complexos dos clientes
 <br/>
-
 
 <b>Desvantagens de usar esse padrão</b>
 Aumento do número de classes pois usamos uma para cada algoritmo.
@@ -31,12 +36,16 @@ Aumento da complexidade na criação do objeto que tem as classes acima como dep
 Esse é um exemplo mais simples para iniciar o entendimento.
 <br/>
 ![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/strategyExemplo01.png)
+<br/>
+<b>Foi retirado do tutorial youtube - Derek Banas Design Patterns</b>
 
 <br/><br/>
 <b>Exemplo 02 - Caso de uso: Calculo da conta de Estacionamento de veiculos</b>
-Diferente do primeiro exemplo, está cenário com o strategy é uma ótima solução.
+<br/>
+Diferente do primeiro exemplo, este cenário com o strategy é uma ótima solução.
 <br/>
 ![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/strategyExemplo02.png)
+<b>Foi retirado do livro da casa do código - Design Pattern</b>
 
 <br/><br/>
 <b>Exemplo 03 - Caso de uso: Formatador de textos</b>
@@ -47,22 +56,10 @@ Este exemplo é o mais rápido de se implementar.
 <br/>
 link: https://www.javacodegeeks.com/2015/09/strategy-design-pattern.html
 
-<br/><br/>
-<b>When to use the Strategy Design Pattern</b>
-<br/><br/>
-Use the Strategy pattern when:
-Many related classes differ only in their behavior. Strategies provide a way to configure a class with one of many behaviors.
-<br/>
-You need different variants of an algorithm. For example, you might define algorithms reflecting different space/time trade-offs. Strategies can be used when these variants are implemented as a class hierarchy of algorithms.
-<br/>
-An algorithm uses data that clients shouldn’t know about. Use the Strategy pattern to avoid exposing complex, algorithm-specific data structures.
-<br/>
-A class defines many behaviors, and these appear as multiple conditional statements in its operations. Instead of many conditionals, move related conditional branches into their own Strategy class.
-<br/><br/>
-Strategy Pattern in JDK
-<br/>
-java.util.Comparator#compare()
-<br/>
-javax.servlet.http.HttpServlet
-<br/>
-javax.servlet.Filter#doFilter()
+
+
+
+
+
+
+
