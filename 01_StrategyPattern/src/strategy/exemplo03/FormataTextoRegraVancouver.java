@@ -1,6 +1,6 @@
 package strategy.exemplo03;
 
-public class UpperCaseFormataTexto implements FormataTextoInterface{
+public class FormataTextoRegraVancouver implements FormataTextoInterface{
 
 	@Override
 	public void formatar(String texto) {

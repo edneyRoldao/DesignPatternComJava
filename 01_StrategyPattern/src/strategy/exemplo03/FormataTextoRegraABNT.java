@@ -1,6 +1,6 @@
 package strategy.exemplo03;
 
-public class LowerCaseFormataTexto implements FormataTextoInterface{
+public class FormataTextoRegraABNT implements FormataTextoInterface{
 
 	@Override
 	public void formatar(String texto) {

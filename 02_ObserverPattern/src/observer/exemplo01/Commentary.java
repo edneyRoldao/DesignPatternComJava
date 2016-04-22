@@ -10,8 +10,8 @@ package observer.exemplo01;
  * @author Edney Roldao
  *
  */
-public interface ComentarioInterface {
-
+public interface Commentary {
+	
 	void setDesc(String desc);
 	
 }

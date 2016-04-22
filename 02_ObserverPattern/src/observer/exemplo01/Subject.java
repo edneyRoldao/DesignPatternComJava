@@ -11,7 +11,7 @@ package observer.exemplo01;
  * @author Edney Roldao
  *
  */
-public interface SubjectInterface {
+public interface Subject { // Também pode ser chamado de: Sujeito ou Observado
 
 	/**
 	 * Este método serve para adicionarmos os nossos Observers.
@@ -19,14 +19,14 @@ public interface SubjectInterface {
 	 * 
 	 * @param observer
 	 */
-	void subscribeObserver(ObserverInterface observer);
+	void subscribeObserver(Observer observer);
 	
 	/**
 	 * Quando o Subject não precisar mais receber notificação de alteração, devemos remover o Observer
 	 * 
 	 * @param observer
 	 */
-	void unSubscribeObserver(ObserverInterface observer);
+	void unSubscribeObserver(Observer observer);
 	
 	/**
 	 * Este método vai notificar a todos os Observers que estão Subscribed de alguma modificação de estado

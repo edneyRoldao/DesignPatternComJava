@@ -1,6 +1,6 @@
 package strategy.exemplo03;
 
-public class FormataTextoStrategyPatternTexte {
+public class FormataTextoTexte {
 
 	public static void main(String[] args) {
 		
@@ -9,7 +9,7 @@ public class FormataTextoStrategyPatternTexte {
 		//////////////////////////////////////////////////////////////////////////
 		///////////////////// Strategy pattern TESTE /////////////////////////////
 		//////////////////////////////////////////////////////////////////////////
-		FormataTextoInterface formatador = new UpperCaseFormataTexto();
+		FormataTextoInterface formatador = new FormataTextoRegraVancouver();
 		EditorTexto editor = new EditorTexto(formatador);
 		editor.publicarTexto(texto);
 		
@@ -21,11 +21,12 @@ public class FormataTextoStrategyPatternTexte {
 		 */
 		
 		//alterando o formatador
-		formatador = new LowerCaseFormataTexto();
+		formatador = new FormataTextoRegraABNT();
 		editor = new EditorTexto(formatador);
 		
 		System.out.println();
 		System.out.println("O formatador foi alterado dinamicamente");
+		System.out.println();
 		editor.publicarTexto(texto);
 		
 	}

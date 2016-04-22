@@ -8,7 +8,7 @@ package observer.exemplo01;
  * @author Edney Roldao
  *
  */
-public interface ObserverInterface {
+public interface Observer { // Pode ser chamado do Observador
 	
 	/**
 	 * method is called by the subject on the observer in order to notify it, when there is a change in the state of the subject.

@@ -50,7 +50,9 @@ Diferente do primeiro exemplo, este cenário com o strategy é uma ótima soluç
 <br/><br/>
 <b>Exemplo 03 - Caso de uso: Formatador de textos</b>
 <br/>
-Este exemplo é o mais rápido de se implementar.
+Digamos que estamos desenvolvendo uma aplicação que ajuda estudantes de qualquer curso a formatar TCC.
+<br/> 
+![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/strategyExemplo03.png)
 <br/>
 <b>Foi retirado do site javacodegeeks.com</b>
 <br/>
