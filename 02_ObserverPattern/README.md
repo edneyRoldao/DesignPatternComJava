@@ -16,6 +16,7 @@ Nesse pattern, iremos falar muito do <b>Subject ou Sujeito</b> em uma tradução
 <br/><br/>
 
 <b>Exemplo 01 - Caso de uso: Lobby Sports </b>
+<br/>
 Sports Lobby is a fantastic sports site for sport lovers. They cover almost all kinds of sports and provide the latest news, information, matches scheduled dates, information about a particular player or a team. Now, they are planning to provide live commentary or scores of matches as an SMS service, but only for their premium users. Their aim is to SMS the live score, match situation, and important events after short intervals. As a user, you need to subscribe to the package and when there is a live match you will get an SMS to the live commentary. The site also provides an option to unsubscribe from the package whenever you want to.
 <br/>
 As a developer, the Sport Lobby asked you to provide this new feature for them. The reporters of the Sport Lobby will sit in the commentary box in the match, and they will update live commentary to a commentary object. As a developer your job is to provide the commentary to the registered users by fetching it from the commentary object when it’s available. When there is an update, the system should update the subscribed users by sending them the SMS.
