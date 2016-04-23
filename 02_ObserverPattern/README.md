@@ -28,5 +28,9 @@ This situation clearly shows one-to-many mapping between the match and the users
 <b>Foi retirado do site javacodegeeks.com</b>
 <br/>
 link: https://www.javacodegeeks.com/2015/09/observer-design-pattern.html
-	
 <br/>
+
+<b>Exemplo 02 - Caso de uso: Carteira de ações </b>
+<br/>
+O exemplo que será abordado envolve um objeto que representa uma carteira de ações. Essa carteira possui um mapa com os códigos das ações e sua respectiva quantidade. De acordo com as ações do usuário ou com gatilhos configurados na aplicação, ações podem ser compradas ou vendidas alterando sua quantidade. A questão é que existem diversas classes interessadas em saber quando uma informação é alterada
+nessa classe para poder executar a sua lógica. Por exemplo, um componente que exibe um gráfico com a quantidade de cada ação da carteira precisa saber quando houve uma mudança para ser atualizado. Outro exemplo seria um componente que fizesse um log das alterações realizadas. Poderia também existir um componente para fazer a auditoria dos dados.

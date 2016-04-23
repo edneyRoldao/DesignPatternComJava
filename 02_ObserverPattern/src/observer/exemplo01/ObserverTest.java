@@ -16,7 +16,7 @@ public class ObserverTest {
 		 * Criando o objeto onde as atualizações serão observadas.
 		 * Nesse cenário, vamos registrar uma partida de futebol.
 		 */
-		Subject objetoObservado = new CommentaryObject(new ArrayList<Observer>(), "Semifinal do paulista: Corinthians vs Aldax");
+		Subject objetoObservado = new CommentaryObject(new ArrayList<Observer>(), "Semifinal do paulista: Corinthians vs Audax");
 		
 		/**
 		 * Registro de usuário(Observer) que vai receber as atualizações do jogo.
@@ -40,7 +40,7 @@ public class ObserverTest {
 		 * Andre Galvao e jose Caliu vão receber esses mensagens.
 		 */
 		novoComentario.setDesc("O juiz apita o inicio do jogo.");
-		novoComentario.setDesc("Com 1 minuto o timao ja marca o primeiro. [ corinthians (1)  - aldax (0) ]");
+		novoComentario.setDesc("Com 1 minuto o timao ja marca o primeiro. [ corinthians (1)  - audax (0) ]");
 		System.out.println();
 		
 		/**
