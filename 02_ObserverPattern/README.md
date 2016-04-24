@@ -15,6 +15,7 @@ Nesse pattern, iremos falar muito do <b>Subject ou Sujeito</b> em uma tradução
 
 <br/><br/>
 
+<hr/>
 <b>Exemplo 01 - Caso de uso: Lobby Sports </b>
 <br/>
 Sports Lobby is a fantastic sports site for sport lovers. They cover almost all kinds of sports and provide the latest news, information, matches scheduled dates, information about a particular player or a team. Now, they are planning to provide live commentary or scores of matches as an SMS service, but only for their premium users. Their aim is to SMS the live score, match situation, and important events after short intervals. As a user, you need to subscribe to the package and when there is a live match you will get an SMS to the live commentary. The site also provides an option to unsubscribe from the package whenever you want to.
@@ -25,12 +26,28 @@ This situation clearly shows one-to-many mapping between the match and the users
 <br/>
 ![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/observerExemplo02.png)
 
-<b>Foi retirado do site javacodegeeks.com</b>
+<b>Exemplo retirado de: Site javacodegeeks.com</b>
 <br/>
 link: https://www.javacodegeeks.com/2015/09/observer-design-pattern.html
 <br/>
 
+<hr/>
 <b>Exemplo 02 - Caso de uso: Carteira de ações </b>
 <br/>
 O exemplo que será abordado envolve um objeto que representa uma carteira de ações. Essa carteira possui um mapa com os códigos das ações e sua respectiva quantidade. De acordo com as ações do usuário ou com gatilhos configurados na aplicação, ações podem ser compradas ou vendidas alterando sua quantidade. A questão é que existem diversas classes interessadas em saber quando uma informação é alterada
 nessa classe para poder executar a sua lógica. Por exemplo, um componente que exibe um gráfico com a quantidade de cada ação da carteira precisa saber quando houve uma mudança para ser atualizado. Outro exemplo seria um componente que fizesse um log das alterações realizadas. Poderia também existir um componente para fazer a auditoria dos dados.
+<br/>
+<b>Exemplo retirado de: Livro da casa do código - Design Pattern</b>
+<br/>
+
+<hr/>
+<b>Exemplo 03 - Caso de uso: Estação Metereológica </b>
+<br/>
+Agora o nosso Subject vulgo Sujeito vulgo ObjetoObservado será uma classe que recebe informações de temperatura, humidade e previsão do tempo, os Obserbers (Obsevadores) serão aqueles que desejam exibir essas informações em dispositivos distintos, exemplo:
+Smartphone, website, console. Quando os dados na estação de tempo são atualizados, todos os dispositivos devem ser notificados para atualizarem as informações em seus dispositivos.
+<br/>
+![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/observerExemplo03.png)
+<br/>
+<b>Exemplo retirado de: Use a Cabeça ! - Padrões de Projeto (melhor referencia para iniciantes)</b>
+<br/>
+

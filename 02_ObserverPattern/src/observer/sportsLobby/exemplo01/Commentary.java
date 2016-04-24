@@ -1,4 +1,4 @@
-package observer.exemplo01;
+package observer.sportsLobby.exemplo01;
 /**
  * This interface is used by the reporters to update the live commentary on the commentary object. 
  * 

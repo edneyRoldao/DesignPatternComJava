@@ -37,16 +37,16 @@ Esse é um exemplo mais simples para iniciar o entendimento.
 <br/>
 ![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/strategyExemplo01.png)
 <br/>
-<b>Foi retirado do tutorial youtube - Derek Banas Design Patterns</b>
-
+<b>Exemplo retirado de: Tutorial youtube - Derek Banas Design Patterns</b>
+<hr/>
 <br/><br/>
 <b>Exemplo 02 - Caso de uso: Calculo da conta de Estacionamento de veiculos</b>
 <br/>
 Diferente do primeiro exemplo, este cenário com o strategy é uma ótima solução.
 <br/>
 ![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/strategyExemplo02.png)
-<b>Foi retirado do livro da casa do código - Design Pattern</b>
-
+<b>Exemplo retirado de: Livro da casa do código - Design Pattern</b>
+<hr/>
 <br/><br/>
 <b>Exemplo 03 - Caso de uso: Formatador de textos</b>
 <br/>
@@ -54,7 +54,7 @@ Digamos que estamos desenvolvendo uma aplicação que ajuda estudantes de qualqu
 <br/> 
 ![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/strategyExemplo03.png)
 <br/>
-<b>Foi retirado do site javacodegeeks.com</b>
+<b>Exemplo retirado de: Site javacodegeeks.com</b>
 <br/>
 link: https://www.javacodegeeks.com/2015/09/strategy-design-pattern.html
 

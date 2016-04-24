@@ -1,4 +1,4 @@
-package observer.exemplo02;
+package observer.carteiraDeAcoes.exemplo02;
 
 /**
  * Essa classe vai escutar as mudanças na quantidade de ações e registrar no console.

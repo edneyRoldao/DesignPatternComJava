@@ -1,4 +1,4 @@
-package observer.exemplo01;
+package observer.sportsLobby.exemplo01;
 /**
  * Exemplo retirado do javacodegeeks
  * https://www.javacodegeeks.com/2015/09/observer-design-pattern.html.

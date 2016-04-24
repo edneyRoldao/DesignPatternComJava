@@ -1,4 +1,4 @@
-package observer.exemplo02;
+package observer.carteiraDeAcoes.exemplo02;
 
 import javax.swing.JFrame;
 

@@ -1,4 +1,4 @@
-package observer.exemplo01;
+package observer.sportsLobby.exemplo01;
 /**
  * 
  * Esta é a classe concreta que implementa a interface Observer.
