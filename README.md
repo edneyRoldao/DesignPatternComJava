@@ -30,10 +30,7 @@ Orientação a objetos e SOLID para ninjas - Livro casa do código - Maurício A
 <br/>
 <b>JavaCodeGeeks</b> https://www.javacodegeeks.com/2015/09/java-design-patterns.html - Rohit Joshi é o autor do curso.
 <br/>
-<b>Link para baixar o livro gratuitamento do Rohit Joshi:</b> https://www.javacodegeeks.com/wp-content/uploads/2015/10/Java-Design-Patterns.pdf
+<b>Link para baixar o livro do Rohit Joshi:</b> https://www.javacodegeeks.com/wp-content/uploads/2015/10/Java-Design-Patterns.pdf
 <br/>
-
-<b>Minha Opinião</b>
-Acho que estudar e conhecer os principais Design Patterns deveria ser pré-requisito para uma pessoa se auto declarar um desenvolvedor 
-que programa aplicando os conceitos da Orientação a Objetos, independente da linguagem. 
+Obs: A distribuição desse livro é gratuita pelo site javacodegeeks.
   
