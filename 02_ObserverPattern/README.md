@@ -51,3 +51,10 @@ Smartphone, website, console. Quando os dados na estação de tempo são atualiz
 <b>Exemplo retirado de: Use a Cabeça ! - Padrões de Projeto (melhor referencia para iniciantes)</b>
 <br/>
 
+<hr/>
+<b>Exemplo 04 - Caso de uso: Atualização de preços em estoques </b>
+<br/>
+<b>Exemplo retirado de: Tutorial youtube - Derek Banas Design Pattern</b>
+<br/>
+link: https://www.youtube.com/watch?v=wiQdrH2YpT4
+<br/>
