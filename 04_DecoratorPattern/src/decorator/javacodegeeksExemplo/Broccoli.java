@@ -1,4 +1,4 @@
-package decorator.javacodegeeks;
+package decorator.javacodegeeksExemplo;
 
 /**
  * 

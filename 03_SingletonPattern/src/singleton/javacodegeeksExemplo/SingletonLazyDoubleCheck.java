@@ -1,4 +1,4 @@
-package singleton.javacodegeeks;
+package singleton.javacodegeeksExemplo;
 
 /**
  * Esse forma de implementar singleton garante a criação de apenas uma instancia mesmo com o uso de várias threads.

@@ -1,4 +1,4 @@
-package singleton.javacodegeeks;
+package singleton.javacodegeeksExemplo;
 
 /**
  * Esta forma de implementar singleton foi sugerida para que a classe só seja instanciada quando ela for utilizada pela primeira vez.

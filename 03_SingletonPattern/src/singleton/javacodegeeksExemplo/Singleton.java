@@ -1,4 +1,4 @@
-package singleton.javacodegeeks;
+package singleton.javacodegeeksExemplo;
 
 import java.io.ObjectStreamException;
 import java.io.Serializable;

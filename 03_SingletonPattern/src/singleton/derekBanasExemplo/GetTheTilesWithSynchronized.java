@@ -1,4 +1,4 @@
-package singleton.derekBanas;
+package singleton.derekBanasExemplo;
 
 import java.util.LinkedList;
 

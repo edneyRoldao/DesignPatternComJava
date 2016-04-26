@@ -1,4 +1,4 @@
-package singleton.derekBanas;
+package singleton.derekBanasExemplo;
 
 /**
  * 

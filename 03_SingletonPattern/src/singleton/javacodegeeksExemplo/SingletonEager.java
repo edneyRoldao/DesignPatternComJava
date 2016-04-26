@@ -1,4 +1,4 @@
-package singleton.javacodegeeks;
+package singleton.javacodegeeksExemplo;
 
 /**
  * Muitos desenvolvedores não gostam de implementar o singleton desse forma pois o objeto é instanciado no momento que a JVM carrega a classe.

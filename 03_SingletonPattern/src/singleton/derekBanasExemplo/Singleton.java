@@ -1,4 +1,4 @@
-package singleton.derekBanas;
+package singleton.derekBanasExemplo;
 
 import java.util.Arrays;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package singleton.javacodegeeks;
+package singleton.javacodegeeksExemplo;
 
 /**
  * Esta forma de implementar singleton, resolve o problema de multiThread somente na primeiro vez que o método for acessado

@@ -1,20 +1,20 @@
-package decorator.javacodegeeks;
+package decorator.javacodegeeksExemplo;
 
 /**
  * 
  * @author Edney Roldao
  *
  */
-public class SimplyNonVegPizza implements Pizza {
+public class SimplyVegPizza implements Pizza {
 
 	@Override
 	public String getDescription() {
-		return "SimplyNonVegPizza (350)";
+		return "SimplyVegPizza (230)";
 	}
 
 	@Override
 	public double getPrice() {
-		return 350;
+		return 230;
 	}
 
 }
