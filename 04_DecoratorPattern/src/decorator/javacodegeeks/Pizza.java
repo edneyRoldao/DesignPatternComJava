@@ -1,5 +1,14 @@
 package decorator.javacodegeeks;
 
-public class Pizza {
+/**
+ * 
+ * @author Edney Roldao
+ *
+ */
+public interface Pizza {
 
+	public String getDescription();
+	
+	public double getPrice();
+	
 }
