@@ -18,11 +18,12 @@ exemplo: vidro elétrico, roda de liga leve, kit multimidia, trava elétrica, di
 <b>Exemplo 01 - Caso de uso: Pizzaria</b>
 <br/>
 Esse exemplo é bem simples, temos um sistema de venda de pizzas. Cada tipo de pizza possui um valor principal, e este valor vai aumentando conforma novos
-ingredientes extras são adicionados na pizza.
-<br/>
-Veja como ocorre a soma dos valores com o Decorator Pattern.
+ingredientes extras são adicionados na pizza. Veja como ocorre a soma dos valores com o Decorator Pattern com esse exemplo.
+<br/><br/>
+Diagrama de classes
 <br/>
 ![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/decoratorExemplo01.png)
+<br/>
 <b>Exemplo retirado de: Site javacodegeeks.com</b>
 <br/>
 link: https://www.javacodegeeks.com/2015/09/decorator-design-pattern.html
