@@ -5,15 +5,12 @@ import java.util.Collections;
 import java.util.LinkedList;
 
 /**
- * Esta forma de implementar o Singleton pode acontecer de se criar mais de 
- * uma instancia quando duas ou mais Threads tentam obter uma instancia de Singleton ao mesmo tempo e esta ainda estiver null
- * 
- * A classe de teste com uso de threads mostrar como isso ocorre. Veja que o ID das instancias são diferentes onde teriam que ser as mesmas.
+ * Nesse exemplo de singleton é utilizado o modificador de acesso synchronized, onde somente uma thread pode acessar o método de cada vez.
  * 
  * @author Edney Roldão
  *
  */
-public class Singleton {
+public class SingletonWithSynchronized {
 
 	String[] scrabbleLetters = {"a","a","a","a","a","a","a","a","a","a","a",
 			"b","b","b","b","b","b","b","b","b","b","b",
@@ -29,15 +26,15 @@ public class Singleton {
 
 	
 	// Criando a variável de acesso global á instancia do singleton
-	private static Singleton firstInstance = null;
+	private static SingletonWithSynchronized firstInstance = null;
 	
 	
 	// Criando um construtor privado para evitar a criação do novas instâncias dessa classe
-	private Singleton() {}
+	private SingletonWithSynchronized() {}
 	
 	
 	// Os usuários só terão acesso à variável global por meio desse método
-	public static Singleton getInstance() {
+	public static SingletonWithSynchronized getInstance() {
 		
 		if(firstInstance == null) {
 			
@@ -54,9 +51,13 @@ public class Singleton {
 				}
 			}
 			
-			// Este trecho será alterado no próximo exemplo para resolver o problema com as threads
-			firstInstance = new Singleton();
-			Collections.shuffle(firstInstance.letterList);
+			// A instrução abaixo resolve o problema do singleton quando usamos thread.
+			synchronized (SingletonWithSynchronized.class) {
+				if(firstInstance == null) {
+					firstInstance = new SingletonWithSynchronized();
+					Collections.shuffle(firstInstance.letterList);
+				}
+			}
 			
 		}
 		
