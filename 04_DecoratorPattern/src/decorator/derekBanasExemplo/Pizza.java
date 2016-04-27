@@ -7,5 +7,8 @@ package decorator.derekBanasExemplo;
  */
 public interface Pizza {
 
+	public String getDescricao();
+	
+	public double getPreco();
 	
 }

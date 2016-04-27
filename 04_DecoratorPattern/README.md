@@ -28,3 +28,17 @@ Diagrama de classes
 <br/>
 link: https://www.javacodegeeks.com/2015/09/decorator-design-pattern.html
 <br/>
+<br/>
+<hr/>
+<b>Exemplo 02 - Caso de uso: Também Pizzaria</b>
+<br/>
+Existem pequenas diferenças em relação ao exemplo01, porém é de total importancia para entender o Pattern
+<br/><br/>
+Compare o desenho com o print da classe de teste e seu resultado.
+<br/>
+![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/decoratorExemplo02.png)
+<br/>
+<b>Exemplo retirado de: Tutorial Derek Banas</b>
+<br/>
+link: https://www.youtube.com/watch?v=j40kRwSm4VE&index=11&list=PLF206E906175C7E07
+<br/>
