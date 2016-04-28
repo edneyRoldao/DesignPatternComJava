@@ -11,6 +11,10 @@ public class ScrabbleTestWithThreads {
 
 	public static void main(String[] args) throws InterruptedException {
 		
+		//////////////////////////////////////////////////////////////////////////
+		///////////////////// Singleton pattern TESTE ////////////////////////////
+		//////////////////////////////////////////////////////////////////////////
+		
 		// Testando o singleton sem a implementação do synchronized. O id das instancias são diferentes.
 		Runnable getTiles = new GetTheTiles();
 		Runnable getTilesAgain = new GetTheTiles();

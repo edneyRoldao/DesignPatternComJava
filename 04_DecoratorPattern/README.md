@@ -9,6 +9,8 @@ Com esse comportamento, esse pattern garante que uma funcionalidade adicional po
 De forma contextual, imagine que um o objeto carro sofre alterações em seu preço final de acordo com os opcionais que o cliente deseja escolher, esse lista de opcionais é gigante.
 exemplo: vidro elétrico, roda de liga leve, kit multimidia, trava elétrica, direção elétrica, controle de estabilidade, air bag, etc... Não faz sentido adicionar todos esses elementos na classe Carro pois esta pode sofrer alterações constantes. O Decorator Pattern veio para resolver esse tipo de problema.
 <br/>
+<br/>
+O biblioteca java.io utiliza largamente este pattern.
 <hr/>
 <b>Diagrama do Decorator Pattern</b>
 <br/>
@@ -41,4 +43,13 @@ Compare o desenho com o print da classe de teste e seu resultado.
 <b>Exemplo retirado de: Tutorial Derek Banas</b>
 <br/>
 link: https://www.youtube.com/watch?v=j40kRwSm4VE&index=11&list=PLF206E906175C7E07
+<br/>
+<br/>
+<hr/>
+<b>Exemplo 03 - Uso da biblioteca java.io</b>
+<br/>
+<br/>
+![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/decoratorExemplo03.png)
+<br/>
+<b>Exemplo retirado de: Use a cabeça ! - Padrões de Projetos</b>
 <br/>
