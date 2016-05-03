@@ -2,7 +2,11 @@
 Fiquei um pouco confuso Quando comecei as minhas pesquisas sobre este pattern, percebi que ele possui variações que não estavam tão claras a primeira vista. Alguns autores tratam o Factory Pattern como um único padrão e suas variações, outros tratam como padrões distintos.
 <br/>
 Aqui estou tratando cada Factory separadamente, porém todos estão no mesmo projeto organizados em packages.
-<br/><br/>
+<br/>
+<b>Idéia Geral</b>
+<br/>
+O Padrão de Projeto Factory, encapsula a criação de objetos e permite a desvinculação de seu código dos tipos concretos.
+<br/>
 <b> - Simple Factory (alguns altores não reconhecem esse como um Design Pattern) </b>
 <br/><hr/><br/>
 Apesar de não ser considerado um design pattern por alguns autores, ele é a base para o entendimento do funcionamento do Method e Abstract Factory descritos aqui.
@@ -57,7 +61,11 @@ Diferentes Factories que são classes concretas, implementam a interface da Abst
 Este padrão é útil para conectar diferentes grupos de objetos para alterar o comportamento de um sistema como um todo. Para cada grupo de objetos, uma Factory concreta implementa a Abstract Factory Interface para gerenciar a criação desses grupos de objetos.
 <br/><br/>
 ![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/factory03.png)
-<br/><hr/><br/>
+<hr/><br/>
+<b>Quando usar o Abstract Factory Pattern</b>
+<br/>
+Sempre que você tiver famílias de produtos que precisa criar e quiser ter certeza de que os clientes criam produtos pertencentes um ou outro.
+<br/><br/>
 <b>Locais onde o Factory Method é utilizado pelo JDK</b>
 <br/>
 java.util.Calendar

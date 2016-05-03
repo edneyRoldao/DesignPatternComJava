@@ -1,4 +1,4 @@
-package decorator.useACabecaExemplo;
+package decorator.headFirstExemplo;
 
 import java.io.BufferedInputStream;
 import java.io.FileInputStream;

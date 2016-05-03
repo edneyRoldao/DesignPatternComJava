@@ -7,7 +7,7 @@
 	<b>A grande maioria dos cenários desenvolvidos aqui, foram retirados de:
 		<br/>
 		a) javacodegeeks - Java design Patterns (reusable solutions to common problems) escrito por: Rohit Joshi<br/>
-		b) use a cabeça - padrões de projetos <br/>
+		b) Head First - padrões de projetos <br/>
 		c) Design Patterns - casa do código <br/>
 		d) Derek Banas Design Patterns - excelente tutorial no youtube<br/>	
 	</b> 
@@ -18,7 +18,7 @@ GoF - Design Patterns: Elements of Reusable Object-Oriented Software
 <br/>
 Design Patterns com Java - Livro casa do códido - Eduardo Guerra
 <br/>
-Padrões de Projeto - série use a cabeça
+Padrões de Projeto - Head First series
 <br/>
 Apostilas da globalcode
 <br/>

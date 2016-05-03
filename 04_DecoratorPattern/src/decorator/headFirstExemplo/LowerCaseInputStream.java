@@ -1,4 +1,4 @@
-package decorator.useACabecaExemplo;
+package decorator.headFirstExemplo;
 
 import java.io.FilterInputStream;
 import java.io.IOException;
