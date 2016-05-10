@@ -1,6 +1,29 @@
 #Padrões de Projeto (Design Patterns) em Java
+
+Antes de iniciar os meus estudos a respeito dos Design Patterns, eu achava que conhecia Programação Orientada  a Objetos ( POO ) o suficiente para explicar a qualquer um que perguntasse, muito  além disso, eu pensava que tinha capacidade total de aplicar as técnicas de POO na prática, pois bem... Eu estava errado! . Será inevitável não se auto questionar sobre o assunto após ler isso que eu escrevi.  Como um desenvolvedor OO, comece a se perguntar se o seu código contém todos os benefícios oferecidos pela POO, vou te ajudar:
 <br/>
-	<span style="color: red">Eu criei um projeto para cada um dos principais padrões do mercado com O seguinte conteúdo:</span>
+O código escrito é flexível o suficiente que pode sobre mudanças sem perdas e dor de cabeça?
+<br/>
+Seu código é reutilizável a ponto de ser usado em qualquer lugar da aplicação?
+<br/>
+O código está fácil de ser mantido, sua alteração vai afetar outras partes do sistema?
+<br/><br/>
+A POO vai muito além de estender uma classe para reaproveitamento de código, sobrescrever os métodos de classe pai ou criar interfaces com pouco significado. Para entender e aproveitas os benefícios providos pela POO, você precisa estudar sobre Design Patterns e os princípios de SOLID.
+<br/><br/>
+De uma forma bem genérica, um Design Pattern  é a identificação de uma forma comum de solucionar um problema em sistemas com contextos diferentes seguindo as premissas de SOLID e POO.
+<br/>
+Os Design Patterns são divididos em três categorias:
+<br/>
+Creational Pattern
+<br/>
+Structural Pattern
+<br/>
+Behavior Pattern
+<br/><br/>
+<b>Dica:</b> Estude a fundo sobre Design Patterns, POO e SOLID pois pra mim, foi um divisor de aguas como desenvolvedor.
+<br/>
+<br/>
+	<span style="color: red">Eu criei um projeto para cada um dos principais padrões do mercado com o seguinte conteúdo:</span>
 <br/>
 	01: Conceitos básicos (com imagens). <br/>
 	02: Desenvolvimento de vários exemplo para cada Pattern em contextos distintos. <br/>
