@@ -1,10 +1,12 @@
 #Padrões de Projeto (Design Patterns) em Java
 
-Antes de iniciar os meus estudos a respeito dos Design Patterns, eu achava que conhecia Programação Orientada  a Objetos ( POO ) o suficiente para explicar a qualquer um que perguntasse, muito  além disso, eu pensava que tinha capacidade total de aplicar as técnicas de POO na prática, pois bem... Eu estava errado! . Será inevitável não se auto questionar sobre o assunto após ler isso que eu escrevi.  Como um desenvolvedor OO, comece a se perguntar se o seu código contém todos os benefícios oferecidos pela POO, vou te ajudar:
+Antes de iniciar os meus estudos a respeito dos Design Patterns, eu achava que conhecia Programação Orientada  a Objetos ( POO ) o suficiente para explicar a qualquer um que perguntasse e, muito  além disso, eu pensava que tinha capacidade total de aplicar as técnicas de POO na prática, bem... Eu estava errado!. 
 <br/>
-O código escrito é flexível o suficiente que pode sobre mudanças sem perdas e dor de cabeça?
+Como um desenvolvedor OO, comece a se perguntar se o seu código contém todos os benefícios oferecidos pela POO. Vou te ajudar:
 <br/>
-Seu código é reutilizável a ponto de ser usado em qualquer lugar da aplicação?
+O código escrito é flexível o suficiente que pode sofrer mudanças sem perdas ou sem dor de cabeça?
+<br/>
+Seu código é reutilizável a ponto de ser usado em muitos lugares da aplicação?
 <br/>
 O código está fácil de ser mantido, sua alteração vai afetar outras partes do sistema?
 <br/><br/>
@@ -30,8 +32,8 @@ Behavior Pattern
 	<b>A grande maioria dos cenários desenvolvidos aqui, foram retirados de:
 		<br/>
 		a) javacodegeeks - Java design Patterns (reusable solutions to common problems) escrito por: Rohit Joshi<br/>
-		b) Head First - padrões de projetos <br/>
-		c) Design Patterns - casa do código <br/>
+		b) Head First - Design Patterns <br/>
+		c) Padrões de Projeto - casa do código <br/>
 		d) Derek Banas Design Patterns - excelente tutorial no youtube<br/>	
 	</b> 
 
