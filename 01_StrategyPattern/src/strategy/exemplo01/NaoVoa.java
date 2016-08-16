@@ -7,5 +7,4 @@ public class NaoVoa implements HabilidadeVoarInterface {
 		return "NAO pode voar !";
 	}
 
-	
 }
