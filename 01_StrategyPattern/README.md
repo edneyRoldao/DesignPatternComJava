@@ -44,7 +44,7 @@ Esse é um exemplo mais simples para iniciar o entendimento.
 <br/>
 Diferente do primeiro exemplo, este cenário com o strategy é uma ótima solução.
 <br/>
-![alt tag](https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/strategyExemplo02.png)
+<img src="https://github.com/edneyRoldao/DesignPatternComJava/blob/master/supportFiles/strategyExemplo02.png">
 <b>Exemplo retirado de: Livro da casa do código - Design Pattern</b>
 <hr/>
 <br/><br/>
